@@ -16,12 +16,13 @@ This project is Windows/WINE only!
 2. Configure the server parameters, such as what types of syncing you would want(several variables), the port number(25565 by default), and the number of players(NUM_CONNECTIONS).
 3. Configure client parameters, such as the server's IP and port number.
 4. Run the server
-5. For every player, do the following
-   -Run Project64
-   -Launch B3313
-   -After choosing your save file, navigate to File->Lua Scripts
-   -Choose Client.lua and press Run
-6. Enjoy!
+5. For every player, do the following:
+6.    Run Project64-EM
+7.    Open B3313
+8.    Select your save file
+9.    Navigate to File -> Lua Scripts
+10.    Select Client.lua and select Run
+11.    Enjoy!
 
 ## To do
 - Properly sync the count of stars/red stars/green stars in RAM (Currently only updates when stars are collected on the receiving end, aka only EEPROM is modified)
