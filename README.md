@@ -19,7 +19,7 @@ This project is Windows/WINE only!
 5. For every player, do the following:
 6.    Run Project64-EM
 7.    Open B3313
-8.    Select your save file
+8.    Select save file 1
 9.    Navigate to File -> Lua Scripts
 10.    Select Client.lua and select Run
 11.    Enjoy!
