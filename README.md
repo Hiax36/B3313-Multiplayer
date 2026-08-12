@@ -16,7 +16,7 @@ This project is Windows/WINE only!
 2. Configure the server parameters, such as what types of syncing you would want(several variables), the port number(25565 by default), and the number of players(NUM_CONNECTIONS).
 3. Configure client parameters, such as the server's IP and port number.
 4. Run the server
-5. For every player:
+5. For every player, do the following
    -Run Project64
    -Launch B3313
    -After choosing your save file, navigate to File->Lua Scripts
