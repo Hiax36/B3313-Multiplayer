@@ -17,10 +17,10 @@ This project is Windows/WINE only!
 3. Configure client parameters, such as the server's IP and port number.
 4. Run the server
 5. For every player:
--Run Project64
--Launch B3313
--After choosing your save file, navigate to File->Lua Scripts
--Choose Client.lua and press Run
+Run Project64
+Launch B3313
+After choosing your save file, navigate to File->Lua Scripts
+Choose Client.lua and press Run
 6. Enjoy!
 
 ## To do
