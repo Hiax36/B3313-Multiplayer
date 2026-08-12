@@ -6,6 +6,7 @@ This project is Windows/WINE only!
 - Health Link
 - Lives Link
 - Death Link
+- Live Star Syncing
 
 ## Initial Setup Guide
 1. Put Client.lua in the "scripts" folder of Project64-EM
@@ -25,5 +26,5 @@ This project is Windows/WINE only!
 10.    Enjoy!
 
 ## To do
-- Properly sync the count of stars/red stars/green stars in RAM (Currently only updates when stars are collected on the receiving end, aka only EEPROM is modified)
 - Draw other players as particles
+- Model other players?
