@@ -25,6 +25,10 @@ This project is Windows/WINE only!
 9.    Select Client.lua and select Run
 10.    Enjoy!
 
+## Disclaimers
+I will not provide a ROM for B3313; you have to find that yourself. On top of that, this project could be very easily adapted to work with multiple ROM hacks, so look out for that in the future.
+Your progress is not stored in any way on the server. If you quit the client without saving, you still lose all of your progress.
+
 ## To do
 - Draw other players as particles
 - Model other players?
