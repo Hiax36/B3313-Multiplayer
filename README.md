@@ -30,5 +30,6 @@ I will not provide a ROM for B3313; you have to find that yourself. On top of th
 Your progress is not stored in any way on the server. If you quit the client without saving, you still lose all of your progress.
 Following from that, players who are not on the server will not have the progress they missed stored unless they connect to the server last, so the server sees other people's progress as an update.
 ## To do
+- Add native Linux support using Luna's P64 and js
 - Draw other players as particles
 - Model other players?
