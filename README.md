@@ -7,6 +7,7 @@ This project is Windows/WINE only!
 - Lives Link
 - Death Link
 - Live Star Syncing
+- Non-blocking socket communication, so no frame lag from network lag
 
 ## Initial Setup Guide
 1. For every player, put Client.lua in the "scripts" folder of Project64-EM
@@ -30,6 +31,7 @@ This project is Windows/WINE only!
 - This setup has a good chance of working with multiple ROM Hacks, not just B3313, so give it a shot; it might work!
 - Your progress is not stored in any way on the server. If you quit the client without saving, you still lose all of your progress.
 - Following from that, players who are not on the server will not have the progress they missed stored unless they connect to the server last, so the server sees other people's progress as an update.
+- Odds are, if you use more than 4 players, the connection may become laggy. That's just how this kind of thing works.
 ## To do
 - Draw other players as particles
-- Rework code to be client event based (only do network traffic if there is for sure a change)
+- Rework code to be client event-based (only do network traffic if there is for sure a change)
