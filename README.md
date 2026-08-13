@@ -32,3 +32,4 @@ This project is Windows/WINE only!
 - Following from that, players who are not on the server will not have the progress they missed stored unless they connect to the server last, so the server sees other people's progress as an update.
 ## To do
 - Draw other players as particles
+- Rework code to be client event based (only do network traffic if there is for sure a change)
