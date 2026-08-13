@@ -7,7 +7,7 @@ import sys
 ENABLE_HEALTHLINK = False
 ENABLE_DEATHLINK = False
 ENABLE_LIVELINK = False
-
+NUM_CONNECTIONS = 2
 
 connections = list()
 acceptorSocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -23,10 +23,6 @@ def main():
     starCountAddress = 0x8033B21A # 16 bit
     levelNumberAddress = 0x8032DDF8 # 16 bit
     areaNumberAddress = 0x8033B24A # 8 bit
-
-    ### Acceptor Socket ###
-    NUM_CONNECTIONS = 2
-    
 
     print("Listening for Connections...")
     while len(connections) < NUM_CONNECTIONS:
@@ -164,7 +160,6 @@ def main():
                     if conn2 == conn:
                         continue
                     
-                    #Note: byte reversal technically not necessary here as values get double reversed
                     conn2[0].send((8).to_bytes(1))
                     conn2[0].send(recvAddr.to_bytes(4)[::-1])
                     conn2[0].send(newdata.to_bytes(4)[::-1])
