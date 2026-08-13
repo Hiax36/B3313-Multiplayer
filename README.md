@@ -26,9 +26,9 @@ This project is Windows/WINE only!
 10.    Enjoy!
 
 ## Disclaimers
-I will not provide a ROM for B3313; you have to find that yourself. On top of that, this project could be very easily adapted to work with multiple ROM hacks, so look out for that in the future.
-Your progress is not stored in any way on the server. If you quit the client without saving, you still lose all of your progress.
-Following from that, players who are not on the server will not have the progress they missed stored unless they connect to the server last, so the server sees other people's progress as an update.
+- I will not provide a ROM for B3313; you have to find that yourself.
+- This setup has a good chance of working with multiple ROM Hacks, not just B3313, so give it a shot; it might work!
+- Your progress is not stored in any way on the server. If you quit the client without saving, you still lose all of your progress.
+- Following from that, players who are not on the server will not have the progress they missed stored unless they connect to the server last, so the server sees other people's progress as an update.
 ## To do
 - Draw other players as particles
-- Model other players?
