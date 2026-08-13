@@ -9,9 +9,9 @@ This project is Windows/WINE only!
 - Live Star Syncing
 
 ## Initial Setup Guide
-1. Put Client.lua in the "scripts" folder of Project64-EM
-2. Configure Port forwarding if necessary
-3. That's kind of it!
+1. For every player, put Client.lua in the "scripts" folder of Project64-EM
+3. For the server host, configure port forwarding if necessary
+4. That's kind of it!
 
 ## Running Guide
 1. Configure the server parameters, such as what types of syncing you would want(several variables), the port number(25565 by default), and the number of players(NUM_CONNECTIONS).
